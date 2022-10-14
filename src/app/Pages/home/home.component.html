@@ -1,0 +1,14 @@
+<div>
+  <div class="div-form">
+    <form [formGroup]="searchGroup" (submit)="buscar(data)">
+      <input type="text" formControlName="search" placeholder="Search..." class="input">
+      <button class="btn-sub" type="submit" (click)="buscar(data)">Search</button>
+    </form>
+  </div>
+
+  <div class="div-conteiner">
+    <div *ngFor="let item of items" class="div-for">
+      <img src={{item.images.original.url}} alt="img" class="img">
+    </div>
+  </div>
+</div>

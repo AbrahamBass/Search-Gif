@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:ital@1&display=swap');
+
+
+.div-form {
+  background-color: rgb(55, 28, 80);
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.input {
+  padding: 8px;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 20px;
+  width: 300px;
+
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn-sub {
+  padding: 9px;
+  width: 80px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.div-conteiner {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: blueviolet;
+}
+
+
+.img {
+  width: 200px;
+}
